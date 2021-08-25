@@ -1,0 +1,37 @@
+// breakpoints.
+$breakpoints: (
+    "": 0px, 
+    "-sm": 576px, 
+    "-md": 768px,
+    "-lg": 992px,
+    "-xl": 1200px,
+    // "-xxl": 1600px
+);
+
+@each $name, $width in $breakpoints {
+    @media (min-width: $width) {
+
+        // display grid.
+        .grid#{$name} { 
+            display: grid; 
+        }
+
+        // columns amount
+        @for $i from 1 through 12 {
+            .grid#{$name}-cols-#{$i} { 
+                grid-template-columns: repeat($i, minmax(0, 1fr));
+            }
+        }
+
+        // columns span.
+        @for $i from 1 through 12 {
+            .col#{$name}-span-#{$i} { 
+                grid-column: span $i / span $i;
+            }
+        }
+
+        .col#{$name}-span-auto { grid-column: auto; }
+        .col#{$name}-span-full { grid-column: 1 / -1; }
+
+    }
+}
