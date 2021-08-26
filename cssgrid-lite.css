@@ -3,6 +3,60 @@
     display: -ms-grid;
     display: grid;
   }
+  .grid-gap-1 {
+    gap: 1rem;
+  }
+  .grid-gap-2 {
+    gap: 2rem;
+  }
+  .grid-gap-3 {
+    gap: 3rem;
+  }
+  .grid-gap-4 {
+    gap: 4rem;
+  }
+  .grid-gap-5 {
+    gap: 5rem;
+  }
+  .grid-gap-6 {
+    gap: 6rem;
+  }
+  .grid-gap-x-1 {
+    grid-gap: 1rem;
+  }
+  .grid-gap-x-2 {
+    grid-gap: 2rem;
+  }
+  .grid-gap-x-3 {
+    grid-gap: 3rem;
+  }
+  .grid-gap-x-4 {
+    grid-gap: 4rem;
+  }
+  .grid-gap-x-5 {
+    grid-gap: 5rem;
+  }
+  .grid-gap-x-6 {
+    grid-gap: 6rem;
+  }
+  .grid-gap-y-1 {
+    row-gap: 1rem;
+  }
+  .grid-gap-y-2 {
+    row-gap: 2rem;
+  }
+  .grid-gap-y-3 {
+    row-gap: 3rem;
+  }
+  .grid-gap-y-4 {
+    row-gap: 4rem;
+  }
+  .grid-gap-y-5 {
+    row-gap: 5rem;
+  }
+  .grid-gap-y-6 {
+    row-gap: 6rem;
+  }
   .grid-cols-1 {
     -ms-grid-columns: (minmax(0, 1fr))[1];
         grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -99,6 +153,60 @@
   .grid-sm {
     display: -ms-grid;
     display: grid;
+  }
+  .grid-sm-gap-1 {
+    gap: 1rem;
+  }
+  .grid-sm-gap-2 {
+    gap: 2rem;
+  }
+  .grid-sm-gap-3 {
+    gap: 3rem;
+  }
+  .grid-sm-gap-4 {
+    gap: 4rem;
+  }
+  .grid-sm-gap-5 {
+    gap: 5rem;
+  }
+  .grid-sm-gap-6 {
+    gap: 6rem;
+  }
+  .grid-sm-gap-x-1 {
+    grid-gap: 1rem;
+  }
+  .grid-sm-gap-x-2 {
+    grid-gap: 2rem;
+  }
+  .grid-sm-gap-x-3 {
+    grid-gap: 3rem;
+  }
+  .grid-sm-gap-x-4 {
+    grid-gap: 4rem;
+  }
+  .grid-sm-gap-x-5 {
+    grid-gap: 5rem;
+  }
+  .grid-sm-gap-x-6 {
+    grid-gap: 6rem;
+  }
+  .grid-sm-gap-y-1 {
+    row-gap: 1rem;
+  }
+  .grid-sm-gap-y-2 {
+    row-gap: 2rem;
+  }
+  .grid-sm-gap-y-3 {
+    row-gap: 3rem;
+  }
+  .grid-sm-gap-y-4 {
+    row-gap: 4rem;
+  }
+  .grid-sm-gap-y-5 {
+    row-gap: 5rem;
+  }
+  .grid-sm-gap-y-6 {
+    row-gap: 6rem;
   }
   .grid-sm-cols-1 {
     -ms-grid-columns: (minmax(0, 1fr))[1];
@@ -197,6 +305,60 @@
     display: -ms-grid;
     display: grid;
   }
+  .grid-md-gap-1 {
+    gap: 1rem;
+  }
+  .grid-md-gap-2 {
+    gap: 2rem;
+  }
+  .grid-md-gap-3 {
+    gap: 3rem;
+  }
+  .grid-md-gap-4 {
+    gap: 4rem;
+  }
+  .grid-md-gap-5 {
+    gap: 5rem;
+  }
+  .grid-md-gap-6 {
+    gap: 6rem;
+  }
+  .grid-md-gap-x-1 {
+    grid-gap: 1rem;
+  }
+  .grid-md-gap-x-2 {
+    grid-gap: 2rem;
+  }
+  .grid-md-gap-x-3 {
+    grid-gap: 3rem;
+  }
+  .grid-md-gap-x-4 {
+    grid-gap: 4rem;
+  }
+  .grid-md-gap-x-5 {
+    grid-gap: 5rem;
+  }
+  .grid-md-gap-x-6 {
+    grid-gap: 6rem;
+  }
+  .grid-md-gap-y-1 {
+    row-gap: 1rem;
+  }
+  .grid-md-gap-y-2 {
+    row-gap: 2rem;
+  }
+  .grid-md-gap-y-3 {
+    row-gap: 3rem;
+  }
+  .grid-md-gap-y-4 {
+    row-gap: 4rem;
+  }
+  .grid-md-gap-y-5 {
+    row-gap: 5rem;
+  }
+  .grid-md-gap-y-6 {
+    row-gap: 6rem;
+  }
   .grid-md-cols-1 {
     -ms-grid-columns: (minmax(0, 1fr))[1];
         grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -293,6 +455,60 @@
   .grid-lg {
     display: -ms-grid;
     display: grid;
+  }
+  .grid-lg-gap-1 {
+    gap: 1rem;
+  }
+  .grid-lg-gap-2 {
+    gap: 2rem;
+  }
+  .grid-lg-gap-3 {
+    gap: 3rem;
+  }
+  .grid-lg-gap-4 {
+    gap: 4rem;
+  }
+  .grid-lg-gap-5 {
+    gap: 5rem;
+  }
+  .grid-lg-gap-6 {
+    gap: 6rem;
+  }
+  .grid-lg-gap-x-1 {
+    grid-gap: 1rem;
+  }
+  .grid-lg-gap-x-2 {
+    grid-gap: 2rem;
+  }
+  .grid-lg-gap-x-3 {
+    grid-gap: 3rem;
+  }
+  .grid-lg-gap-x-4 {
+    grid-gap: 4rem;
+  }
+  .grid-lg-gap-x-5 {
+    grid-gap: 5rem;
+  }
+  .grid-lg-gap-x-6 {
+    grid-gap: 6rem;
+  }
+  .grid-lg-gap-y-1 {
+    row-gap: 1rem;
+  }
+  .grid-lg-gap-y-2 {
+    row-gap: 2rem;
+  }
+  .grid-lg-gap-y-3 {
+    row-gap: 3rem;
+  }
+  .grid-lg-gap-y-4 {
+    row-gap: 4rem;
+  }
+  .grid-lg-gap-y-5 {
+    row-gap: 5rem;
+  }
+  .grid-lg-gap-y-6 {
+    row-gap: 6rem;
   }
   .grid-lg-cols-1 {
     -ms-grid-columns: (minmax(0, 1fr))[1];
@@ -391,6 +607,60 @@
     display: -ms-grid;
     display: grid;
   }
+  .grid-xl-gap-1 {
+    gap: 1rem;
+  }
+  .grid-xl-gap-2 {
+    gap: 2rem;
+  }
+  .grid-xl-gap-3 {
+    gap: 3rem;
+  }
+  .grid-xl-gap-4 {
+    gap: 4rem;
+  }
+  .grid-xl-gap-5 {
+    gap: 5rem;
+  }
+  .grid-xl-gap-6 {
+    gap: 6rem;
+  }
+  .grid-xl-gap-x-1 {
+    grid-gap: 1rem;
+  }
+  .grid-xl-gap-x-2 {
+    grid-gap: 2rem;
+  }
+  .grid-xl-gap-x-3 {
+    grid-gap: 3rem;
+  }
+  .grid-xl-gap-x-4 {
+    grid-gap: 4rem;
+  }
+  .grid-xl-gap-x-5 {
+    grid-gap: 5rem;
+  }
+  .grid-xl-gap-x-6 {
+    grid-gap: 6rem;
+  }
+  .grid-xl-gap-y-1 {
+    row-gap: 1rem;
+  }
+  .grid-xl-gap-y-2 {
+    row-gap: 2rem;
+  }
+  .grid-xl-gap-y-3 {
+    row-gap: 3rem;
+  }
+  .grid-xl-gap-y-4 {
+    row-gap: 4rem;
+  }
+  .grid-xl-gap-y-5 {
+    row-gap: 5rem;
+  }
+  .grid-xl-gap-y-6 {
+    row-gap: 6rem;
+  }
   .grid-xl-cols-1 {
     -ms-grid-columns: (minmax(0, 1fr))[1];
         grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -482,4 +752,4 @@
     grid-column: 1 / -1;
   }
 }
-/*# sourceMappingURL=techweb-grid.css.map */
+/*# sourceMappingURL=cssgrid-lite.css.map */

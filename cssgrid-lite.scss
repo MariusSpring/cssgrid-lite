@@ -15,6 +15,27 @@ $breakpoints: (
         .grid#{$name} { 
             display: grid; 
         }
+        
+        // gap.
+        @for $i from 1 through 6 {
+            .grid#{$name}-gap-#{$i} { 
+                gap: #{$i * 1}rem;
+            }
+        }
+
+        // gap x.
+        @for $i from 1 through 6 {
+            .grid#{$name}-gap-x-#{$i} { 
+                grid-gap: #{$i * 1}rem;
+            }
+        }
+
+        // gap y.
+        @for $i from 1 through 6 {
+            .grid#{$name}-gap-y-#{$i} {
+                row-gap: #{$i * 1}rem;
+            }
+        }
 
         // columns amount
         @for $i from 1 through 12 {
